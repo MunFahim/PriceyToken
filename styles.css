@@ -1,0 +1,52 @@
+body{
+    font-family: 'Cabin', Arial, Helvetica, sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(49deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding: 24px;
+}
+main{
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.849);
+    margin-top: 0;
+}
+.pay-info, .rec-info{
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+.pay-inputs, .rec-inputs{
+    display: flex;
+    margin-top: 6px;
+}
+.rec-info{
+    margin-top: 16px;
+}
+#payI, #recI{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 1.3rem;
+    padding: 12px;
+    outline: none;
+}
+
+#pay, #rec{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 900;
+    border-radius: 8px 0px 0px 8px;
+}
+label{
+    color: rgba(255, 255, 255, 0.781);
+}

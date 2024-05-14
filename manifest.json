@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Pricey Token",
+    "description": "Get real time exhange rates of Token to Token transacions. Includes price in USD. Features jup.ag price data",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "coinLogo.png"
+    }
+  }

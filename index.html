@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <script src="connect.js" defer></script>
+
+</head>
+<body>
+    <h1>Get the Price/Rate of Coins!</h1>
+    <main>
+        <div class="pay-info">
+            <label for="placeholder">To Pay</label> 
+            <div class="pay-inputs">
+                <select name="pay" id="pay">
+                    <option value="SOL">SOL</option>
+                    <option value='CLAY'>CLAY</option>
+                    <option value='BOO'>BOO</option>        
+                    <option value='$PELF'>$PELF</option>    
+                    <option value='SAMOWIF'>SAMOWIF</option>
+                    <option value='SOLA'>SOLA</option>      
+                    <option value='SNAP'>SNAP</option>      
+                    <option value='HMTR'>HMTR</option>      
+                    <option value='PAINT'>PAINT</option>    
+                    <option value='CROCHET'>CROCHET</option>
+                    <option value='WVE'>WVE</option>        
+                    <option value='rFRAKT'>rFRAKT</option>  
+                    <option value='MILKBAG'>MILKBAG</option>
+                    <option value='INBRED'>INBRED</option>  
+                    <option value='$BEAR'>$BEAR</option>    
+                    <option value='$WEN'>$WEN</option>      
+                    <option value='OTK'>OTK</option>        
+                    <option value='KHAI'>KHAI</option>      
+                    <option value='clARB'>clARB</option>    
+                    <option value='POT'>POT</option>        
+                    <option value='MILK'>MILK</option>      
+                    <option value='EGG'>EGG</option>        
+                    <option value='GOLDY'>GOLDY</option>    
+                    <option value='STASH'>STASH</option>    
+                    <option value='KRILL'>KRILL</option>    
+                    <option value='KOW'>KOW</option>        
+                    <option value='CYS'>CYS</option>        
+                    <option value='HTO'>HTO</option>        
+                    <option value='MMA'>MMA</option>        
+                    <option value='UNQ'>UNQ</option>        
+                    <option value='UCIT'>UCIT</option>      
+                    <option value='GSOL'>GSOL</option>
+                    <option value='SONAR'>SONAR</option>
+                    <option value='STEP'>STEP</option>
+                    <option value='ROCKY'>ROCKY</option>
+                    <option value='BOT'>BOT</option>
+                    <option value='BON'>BON</option>
+                    <option value='RODAI'>RODAI</option>
+                    <option value='CLUB'>CLUB</option>
+                    <option value='MPLX'>MPLX</option>
+                    <option value='RARE'>RARE</option>
+                    <option value='RUSTY'>RUSTY</option>
+                    <option value='KEKE'>KEKE</option>
+                    <option value='clOP'>clOP</option>
+                    <option value='SNS'>SNS</option>
+                    <option value='LEGEND'>LEGEND</option>
+                    <option value='WUT'>WUT</option>
+                    <option value='zSOL'>zSOL</option>
+                    <option value='soBTC'>soBTC</option>
+                    <option value='UNI'>UNI</option>
+                    <option value='POU'>POU</option>
+                    <option value='CHAI'>CHAI</option>
+                    <option value='mockJUP'>mockJUP</option>
+                    <option value='TICKET'>TICKET</option>
+                    <option value='CHURRO'>CHURRO</option>
+                    <option value='T1NY'>T1NY</option>
+                    <option value='SPDR'>SPDR</option>
+                    <option value='BIRDDOG'>BIRDDOG</option>
+                    <option value='PAW'>PAW</option>
+                    <option value='TENKAI'>TENKAI</option>
+                    <option value='GEN'>GEN</option>
+                    <option value='$GRW'>$GRW</option>
+                    <option value='KIWI'>KIWI</option>
+                    <option value='BANA'>BANA</option>
+                    <option value='TAKI'>TAKI</option>
+                    <option value='sUSDC-8'>sUSDC-8</option>
+                    <option value='rZOOM'>rZOOM</option>
+                    <option value='SKYH'>SKYH</option>
+                    <option value='arab'>arab</option>
+                    <option value='NVX'>NVX</option>
+                    <option value='CHI'>CHI</option>
+                    <option value='JURDEN'>JURDEN</option>
+                    <option value='SEYLER'>SEYLER</option>
+                    <option value='WOLF'>WOLF</option>
+                    <option value='vBLSH'>vBLSH</option>
+                    <option value='DBC'>DBC</option>
+                    <option value='WUF'>WUF</option>
+                    <option value='ySOL'>ySOL</option>
+                    <option value='SOBER'>SOBER</option>
+                    <option value='GPT'>GPT</option>
+                    <option value='MAI'>MAI</option>
+                    <option value='PAW'>PAW</option>
+                    <option value='HNT'>HNT</option>
+                    <option value='MODUL'>MODUL</option>
+                    <option value='KNK'>KNK</option>
+                    <option value='PRNT'>PRNT</option>
+                    <option value='$Clown'>$Clown</option>
+                    <option value='FLTH'>FLTH</option>
+                    <option value='VOID'>VOID</option>
+                    <option value='$FORCE'>$FORCE</option>
+                    <option value='SLX'>SLX</option>
+                    <option value='LMF'>LMF</option>
+                    <option value='CKC'>CKC</option>
+                    <option value='MOBILE'>MOBILE</option>
+                    <option value='MVP'>MVP</option>
+                    <option value='apUSDC'>apUSDC</option>
+                    <option value='HuntBoden'>HuntBoden</option>
+                </select>
+                <input type="number" name="payI" id="payI" placeholder="0.00">
+            </div>
+        </div>
+        <div class="rec-info">
+            <label for="rec">To Recieve</label>
+            <div class="rec-inputs">
+                <select name="rec" id="rec">
+                    <option value="USDC">USDC</option>
+                    <option value='CLAY'>CLAY</option>
+                    <option value='BOO'>BOO</option>        
+                    <option value='$PELF'>$PELF</option>    
+                    <option value='SAMOWIF'>SAMOWIF</option>
+                    <option value='SOLA'>SOLA</option>      
+                    <option value='SNAP'>SNAP</option>      
+                    <option value='HMTR'>HMTR</option>      
+                    <option value='PAINT'>PAINT</option>    
+                    <option value='CROCHET'>CROCHET</option>
+                    <option value='WVE'>WVE</option>        
+                    <option value='rFRAKT'>rFRAKT</option>  
+                    <option value='MILKBAG'>MILKBAG</option>
+                    <option value='INBRED'>INBRED</option>  
+                    <option value='$BEAR'>$BEAR</option>    
+                    <option value='$WEN'>$WEN</option>      
+                    <option value='OTK'>OTK</option>        
+                    <option value='KHAI'>KHAI</option>      
+                    <option value='clARB'>clARB</option>    
+                    <option value='POT'>POT</option>        
+                    <option value='MILK'>MILK</option>      
+                    <option value='EGG'>EGG</option>        
+                    <option value='GOLDY'>GOLDY</option>    
+                    <option value='STASH'>STASH</option>    
+                    <option value='KRILL'>KRILL</option>    
+                    <option value='KOW'>KOW</option>        
+                    <option value='CYS'>CYS</option>        
+                    <option value='HTO'>HTO</option>        
+                    <option value='MMA'>MMA</option>        
+                    <option value='UNQ'>UNQ</option>        
+                    <option value='UCIT'>UCIT</option>      
+                    <option value='GSOL'>GSOL</option>
+                    <option value='SONAR'>SONAR</option>
+                    <option value='STEP'>STEP</option>
+                    <option value='ROCKY'>ROCKY</option>
+                    <option value='BOT'>BOT</option>
+                    <option value='BON'>BON</option>
+                    <option value='RODAI'>RODAI</option>
+                    <option value='CLUB'>CLUB</option>
+                    <option value='MPLX'>MPLX</option>
+                    <option value='RARE'>RARE</option>
+                    <option value='RUSTY'>RUSTY</option>
+                    <option value='KEKE'>KEKE</option>
+                    <option value='clOP'>clOP</option>
+                    <option value='SNS'>SNS</option>
+                    <option value='LEGEND'>LEGEND</option>
+                    <option value='WUT'>WUT</option>
+                    <option value='zSOL'>zSOL</option>
+                    <option value='soBTC'>soBTC</option>
+                    <option value='UNI'>UNI</option>
+                    <option value='POU'>POU</option>
+                    <option value='CHAI'>CHAI</option>
+                    <option value='mockJUP'>mockJUP</option>
+                    <option value='TICKET'>TICKET</option>
+                    <option value='CHURRO'>CHURRO</option>
+                    <option value='T1NY'>T1NY</option>
+                    <option value='SPDR'>SPDR</option>
+                    <option value='BIRDDOG'>BIRDDOG</option>
+                    <option value='PAW'>PAW</option>
+                    <option value='TENKAI'>TENKAI</option>
+                    <option value='GEN'>GEN</option>
+                    <option value='$GRW'>$GRW</option>
+                    <option value='KIWI'>KIWI</option>
+                    <option value='BANA'>BANA</option>
+                    <option value='TAKI'>TAKI</option>
+                    <option value='sUSDC-8'>sUSDC-8</option>
+                    <option value='rZOOM'>rZOOM</option>
+                    <option value='SKYH'>SKYH</option>
+                    <option value='arab'>arab</option>
+                    <option value='NVX'>NVX</option>
+                    <option value='CHI'>CHI</option>
+                    <option value='JURDEN'>JURDEN</option>
+                    <option value='SEYLER'>SEYLER</option>
+                    <option value='WOLF'>WOLF</option>
+                    <option value='vBLSH'>vBLSH</option>
+                    <option value='DBC'>DBC</option>
+                    <option value='WUF'>WUF</option>
+                    <option value='ySOL'>ySOL</option>
+                    <option value='SOBER'>SOBER</option>
+                    <option value='GPT'>GPT</option>
+                    <option value='MAI'>MAI</option>
+                    <option value='PAW'>PAW</option>
+                    <option value='HNT'>HNT</option>
+                    <option value='MODUL'>MODUL</option>
+                    <option value='KNK'>KNK</option>
+                    <option value='PRNT'>PRNT</option>
+                    <option value='$Clown'>$Clown</option>
+                    <option value='FLTH'>FLTH</option>
+                    <option value='VOID'>VOID</option>
+                    <option value='$FORCE'>$FORCE</option>
+                    <option value='SLX'>SLX</option>
+                    <option value='LMF'>LMF</option>
+                    <option value='CKC'>CKC</option>
+                    <option value='MOBILE'>MOBILE</option>
+                    <option value='MVP'>MVP</option>
+                    <option value='apUSDC'>apUSDC</option>
+                    <option value='HuntBoden'>HuntBoden</option>
+                </select>
+                <input type="number" name="recI" id="recI" placeholder="0.00">
+            </div>
+        </div>
+        <p id="usd">USD: </p>
+    </main>
+</body>
+</html>
