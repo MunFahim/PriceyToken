@@ -12,7 +12,7 @@ const tData = document.getElementById("totalData");
 async function getPrice(symb){
     let priceData = -1;
     try{
-    await fetch(`https://price.jup.ag/v4/price?ids=${symb}`)
+    await fetch(`https://price.jup.ag/v6/price?ids=${symb}`)
     .then(res=>res.json())
       .then(data=>priceData = data.data[symb].price);
     }catch(error){
